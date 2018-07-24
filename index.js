@@ -3,6 +3,7 @@ module.exports = {
   "rules": {
     "arrow-parens": false,
     "no-shadowed-variable": false,
-    "no-conditional-assignment": false
+    "no-conditional-assignment": false,
+    "interface-name": false
   }
 }
