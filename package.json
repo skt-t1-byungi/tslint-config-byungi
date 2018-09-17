@@ -20,7 +20,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "tslint-config-standard": "^7.1.0"
+    "tslint-config-standard": "^8.0.1"
   },
   "peerDependencies": {
     "tslint": "^5.11.0"
