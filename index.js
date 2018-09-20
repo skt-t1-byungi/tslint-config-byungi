@@ -5,6 +5,6 @@ module.exports = {
     "no-shadowed-variable": false,
     "no-conditional-assignment": false,
     "interface-name": false,
-    "indent": [true, "spaces", 4]
+    "ter-indent": [true, 4, { SwitchCase: 1 }],
   }
 }
