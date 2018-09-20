@@ -4,6 +4,7 @@ module.exports = {
     "arrow-parens": false,
     "no-shadowed-variable": false,
     "no-conditional-assignment": false,
-    "interface-name": false
+    "interface-name": false,
+    "indent": [true, "spaces", 4]
   }
 }
