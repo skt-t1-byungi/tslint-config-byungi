@@ -1,6 +1,10 @@
 module.exports = {
-    "extends": ["tslint:recommended", "tslint-config-standard"],
-    "rules": {
+    extends: [
+        "tslint:recommended",
+        "tslint-config-standard",
+        "tslint-sonarts"
+    ],
+    rules: {
         "arrow-parens": false,
         "no-shadowed-variable": false,
         "no-conditional-assignment": false,
@@ -8,6 +12,7 @@ module.exports = {
         "ter-indent": [true, 4, { SwitchCase: 1 }],
         "max-line-length": [true, 140],
         "object-literal-sort-keys": false,
-        "member-ordering": false
+        "member-ordering": false,
+        "ordered-imports": false
     }
 }

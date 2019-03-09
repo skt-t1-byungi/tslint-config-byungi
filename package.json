@@ -20,9 +20,10 @@
         "index.js"
     ],
     "dependencies": {
-        "tslint-config-standard": "^8.0.1"
+        "tslint-config-standard": "^8.0.1",
+        "tslint-sonarts": "^1.9.0"
     },
     "peerDependencies": {
-        "tslint": "^5.11.0"
+        "tslint": "^5.13.1"
     }
 }
